@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\game-engine">
+      <UniqueIdentifier>{091e34ba-1ef1-4beb-80bf-8f99bc1069db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\softrender">
+      <UniqueIdentifier>{aa698e8f-68b8-40e6-a700-c3958fb67f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\input manager">
+      <UniqueIdentifier>{847b59f3-357b-4ee8-a945-ecbfbd5a4bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\characters">
+      <UniqueIdentifier>{3e2ec011-a1db-4b26-90eb-f53bbcb12ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\characters\3D">
+      <UniqueIdentifier>{e373e79d-8f05-4d99-94b4-7d650cd1073c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\game map">
+      <UniqueIdentifier>{494efb54-65bf-4e1b-836c-adaba3585d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\helpers">
+      <UniqueIdentifier>{74827464-ac7f-4e8f-9de8-b8901b8a883a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\helpers\tinyxml">
+      <UniqueIdentifier>{1f7724d6-1f44-4b96-9ce1-500b9d4ad743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\characters\AI">
+      <UniqueIdentifier>{528bd057-fe59-41f2-8fe0-63b37031f03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\3D game objects">
+      <UniqueIdentifier>{383220bb-5c62-4fcc-bc97-dc712baf5051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\cam view">
+      <UniqueIdentifier>{1916bf22-7245-498a-a4f4-08d1483d27b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\bomberman app">
+      <UniqueIdentifier>{2ef25ffc-7297-4543-9d9c-989a4192e49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\game level">
+      <UniqueIdentifier>{cf2f55af-1aa9-465f-bba8-577050374f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\resource manager">
+      <UniqueIdentifier>{cd7a8afe-4daa-4bb9-b35d-e4d0184e1a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\ashfall">
+      <UniqueIdentifier>{5cf422f2-e24f-41ca-a350-7e02de05f31b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\sound manager">
+      <UniqueIdentifier>{64eb7db3-a4eb-4481-8e2a-aea10dae8995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\state machine">
+      <UniqueIdentifier>{0be44f7b-0ce9-4862-97e8-b20423cd9a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game-engine\main screen">
+      <UniqueIdentifier>{04e12ce7-afb3-495f-a4a8-c4db5ac67e5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\game-engine\character_base_c.cpp">
+      <Filter>Source Files\game-engine\characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\input_manager\input_manager_c.cpp">
+      <Filter>Source Files\game-engine\input manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\input_manager\input_mapper.cpp">
+      <Filter>Source Files\game-engine\input manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\character3d_c.cpp">
+      <Filter>Source Files\game-engine\characters\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\game_map_c.cpp">
+      <Filter>Source Files\game-engine\game map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\game_map3d_c.cpp">
+      <Filter>Source Files\game-engine\game map</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\helpers.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\mesh_factory_c.cpp">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\object3d_c.cpp">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\mesh_base_c.cpp">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\game_object_c.cpp">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\map_cell.cpp">
+      <Filter>Source Files\game-engine\game map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tinyxml\tinystr.cpp">
+      <Filter>Source Files\helpers\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tinyxml\tinyxml.cpp">
+      <Filter>Source Files\helpers\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files\helpers\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files\helpers\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\bomberman3d_c.cpp">
+      <Filter>Source Files\game-engine\characters\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\enemy3d_c.cpp">
+      <Filter>Source Files\game-engine\characters\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\character_ai_c.cpp">
+      <Filter>Source Files\game-engine\characters\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\object_bomb3d_c.cpp">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\deadline_object3d_c.cpp">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\cam_view_c.cpp">
+      <Filter>Source Files\game-engine\cam view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\bomberman_app_c.cpp">
+      <Filter>Source Files\game-engine\bomberman app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\game_level_c.cpp">
+      <Filter>Source Files\game-engine\game level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\sprite3d_c.cpp">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\resource_manager_c.cpp">
+      <Filter>Source Files\game-engine\resource manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\animated_sprite3d_c.cpp">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\ashfall.cpp">
+      <Filter>Source Files\game-engine\ashfall</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\sound_manager_c.cpp">
+      <Filter>Source Files\game-engine\sound manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\state_context_c.cpp">
+      <Filter>Source Files\game-engine\state machine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\main_screen_c.cpp">
+      <Filter>Source Files\game-engine\main screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\modifier_object3d_c.cpp">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game-engine\object_exit3d_c.cpp">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\game-engine\character_base_c.h">
+      <Filter>Source Files\game-engine\characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\input_manager\input_manager_c.h">
+      <Filter>Source Files\game-engine\input manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\input_manager\input_mapper.h">
+      <Filter>Source Files\game-engine\input manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\character3d_c.h">
+      <Filter>Source Files\game-engine\characters\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\game_map_c.h">
+      <Filter>Source Files\game-engine\game map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\game_map3d_c.h">
+      <Filter>Source Files\game-engine\game map</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\helpers.h">
+      <Filter>Source Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\mesh_factory_c.h">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\object3d_c.h">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\mesh_base_c.h">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\game_object_c.h">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\map_cell.h">
+      <Filter>Source Files\game-engine\game map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\bomberman3d_c.h">
+      <Filter>Source Files\game-engine\characters\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\game_types.h">
+      <Filter>Source Files\game-engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\enemy3d_c.h">
+      <Filter>Source Files\game-engine\characters\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\character_ai_c.h">
+      <Filter>Source Files\game-engine\characters\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\object_bomb3d_c.h">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\deadline_object3d_c.h">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine3d\engine.h">
+      <Filter>Source Files\softrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\cam_view_c.h">
+      <Filter>Source Files\game-engine\cam view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\bomberman_app_c.h">
+      <Filter>Source Files\game-engine\bomberman app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\game_level_c.h">
+      <Filter>Source Files\game-engine\game level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine3d\frame_buffer.h">
+      <Filter>Source Files\softrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine3d\helpers.h">
+      <Filter>Source Files\softrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine3d\sr_common.h">
+      <Filter>Source Files\softrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine3d\sr_types.h">
+      <Filter>Source Files\softrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine3d\texture2d_c.h">
+      <Filter>Source Files\softrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\resource_manager_c.h">
+      <Filter>Source Files\game-engine\resource manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\animated_sprite3d_c.h">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\ashfall.h">
+      <Filter>Source Files\game-engine\ashfall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\sound_manager_c.h">
+      <Filter>Source Files\game-engine\sound manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\config_c.h">
+      <Filter>Source Files\game-engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\state_context_c.h">
+      <Filter>Source Files\game-engine\state machine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\main_screen_c.h">
+      <Filter>Source Files\game-engine\main screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\benchmark.hpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\modifier_object3d_c.h">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\blinking_star_c.h">
+      <Filter>Source Files\game-engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game-engine\object_exit3d_c.h">
+      <Filter>Source Files\game-engine\3D game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3D Bomberman.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
