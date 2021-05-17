@@ -1,4 +1,4 @@
-# Bomberman3D
+# Space Bomberman3D (softrender)
 
 Bomberman game project based on my softrender engine.
 
