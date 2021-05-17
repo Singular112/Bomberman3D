@@ -1,6 +1,7 @@
 # Space Bomberman3D (softrender)
 
 Bomberman game project based on my softrender engine.
+CrossPlatform (Linux\Windows).
 
 Project page on gamedev.ru: https://gamedev.ru/projects/forum/?id=260553
 
